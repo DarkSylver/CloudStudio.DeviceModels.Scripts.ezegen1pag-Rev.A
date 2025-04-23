@@ -57,7 +57,7 @@ if (jsonPayload.ser == "RUT955"){
             env.log(dato.trim());
             });
             for (let i = 0; i < datosSeparados.length; i++) {
-                    env.log("Valor  -->  ",[i]," -> ",datosSeparados[i]);
+                    env.log("Valor  --> ",[i],datosSeparados[i]);
             }
             var dato3 =parseInt(datosSeparados[2]);
             var dato4 =parseInt(datosSeparados[7]);
